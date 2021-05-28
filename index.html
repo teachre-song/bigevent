@@ -18,26 +18,6 @@
             <div class="layui-logo">
                 <img src="./assets/images/logo.png" alt="" />
             </div>
-            <!-- <div class="layui-logo layui-hide-xs layui-bg-black">layout demo</div> -->
-            <!-- 头部区域（可配合layui 已有的水平导航） -->
-            <!-- <ul class="layui-nav layui-layout-left">
-                移动端显示
-                <li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft">
-                    <i class="layui-icon layui-icon-spread-left"></i>
-                </li>
-
-                <li class="layui-nav-item layui-hide-xs"><a href="">nav 1</a></li>
-                <li class="layui-nav-item layui-hide-xs"><a href="">nav 2</a></li>
-                <li class="layui-nav-item layui-hide-xs"><a href="">nav 3</a></li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;">nav groups</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="">menu 11</a></dd>
-                        <dd><a href="">menu 22</a></dd>
-                        <dd><a href="">menu 33</a></dd>
-                    </dl>
-                </li>
-            </ul> -->
             <ul class="layui-nav layui-layout-right">
                 <li class="layui-nav-item layui-hide layui-show-md-inline-block">
                     <a href="javascript:;" class="userinfo">
@@ -68,8 +48,9 @@
                 <ul class="layui-nav layui-nav-tree" lay-shrink="all">
                     <li class="layui-nav-item layui-this"><a href="home/dashboard.html" target="fm"> <span class="iconfont icon-home"></span>
                             首页</a></li>
-
-                    <li class="layui-nav-item layui-nav-itemed">
+                            <!-- layui-nav-itemed 默认展开列表  -->
+                    <!-- <li class="layui-nav-item layui-nav-itemed"> -->
+                    <li class="layui-nav-item ">
                         <a class="" href="javascript:;"><span class="iconfont icon-pinglun"></span>文章管理</a>
                         <dl class="layui-nav-child">
                             <dd><a href="article/art_cate.html" target="fm"><i class="layui-icon layui-icon-app"></i>文章类别</a></dd>
@@ -78,7 +59,7 @@
                         </dl>
                     </li>
                     <li class="layui-nav-item">
-                        <a href="javascript:;">个人中心</a>
+                        <a href="javascript:;"><span class="iconfont icon-pinglun"></span>个人中心</a>
                         <dl class="layui-nav-child">
                             <dd><a href="user/user_info.html" target="fm"><i class="layui-icon layui-icon-app"></i>基本资料</a></dd>
                             <dd><a href="user/user_avatar.html" target="fm"><i class="layui-icon layui-icon-app"></i>更换头像</a></dd>
